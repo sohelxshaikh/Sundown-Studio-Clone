@@ -14,17 +14,29 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css"
     />
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <div id="fixed-image">
     </div>
+    <div id="loader">
+      <h1>ENVIRONMENTS</h1>
+      <h1>EXPERIENCES</h1>
+      <h1>CONTENT</h1>
+    </div>
+    
+   
    
     <div id="main">
       
       <div id="page1">
         <nav>
           <img
+          id="navimg"
             src="https://assets-global.website-files.com/64d3dd9edfb41666c35b15b7/64d3dd9edfb41666c35b15c2_Sundown%20logo.svg"
             alt=""
           />
@@ -33,6 +45,7 @@
             <h4><a href="">Studio</a></h4>
             <h4><a href="">Contact</a></h4>
           </div>
+          <h4 id="menu">Menu</h4>
         </nav>
         <div class="center">
           <div class="left">
@@ -101,6 +114,10 @@
         </div>
       </div>
       <div id="page3">
+        <div id="head">
+          <div id="icon"></div>
+       <div> <h2>Featured Project</h2></div>
+      </div>
         <div id="elem-container">
           <div class="elem" id="elem1" data-img = "./img1.webp">
             <div class="overlay"></div>
@@ -131,17 +148,75 @@
             <h1>Air Force 12021</h1>
           </div>
         </div>
+       <div id="project-sm">
+
+       </div>
+
         <h4><a href="">All Projects -></a></h4>
       </div>
       <div id="page4">
+        <div id="work-pg5" style="display: flex;margin-bottom: 50px;padding: 0 3vw;">
+          <!-- <img id = "icon" src="favicon-32x32.png" height="20px" alt=""> -->
+          <div id="icon"></div>
+        <h4 style="font-weight: 200;">WHO WE WORK WITH</h4>
+        </div>
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+           
+            <div class="swiper-slide">
+              <img src="nike.svg" alt="">
+              <h4>
 
+                Retained Production support across retail and events in NY, CHI, LA. Creative Design, Design Management, Production/Project Management, and execution of work from concept to installation across the Country.</h4>
+            </div>
+            <div class="swiper-slide">
+              <img src="conves.svg" alt="">
+              <h4>Creative Concepting, Design, Design Management, Project Management, and execution of work from concept to installation across the Country. Cross functional communication and management of third party partners.
+
+            </div>
+            <div class="swiper-slide">
+              <img src="brand-img3.svg" alt="">
+              <h4>
+
+                Production and design along with install oversight and execution support for the SoHo store opening on Broadway St, New York. Also working on creative and production work for a new store opening in Glendale, California.</h4>
+            </div>
+            <div class="swiper-slide">
+              <img src="hunter.svg" alt="">
+              <h4> 
+
+                Design and Production partner for Hunter Holiday 2022 Pop-in at Nordstrom 57th St, New York, Kid’s zones. Thirty-five (35) additional smaller take-downs in Nordstrom stores across the US. Concept design for Holiday boot customization events in stores across winter 2022.</h4>
+            </div>
+            <div class="swiper-slide">
+              <img src="medialink.svg" alt="">
+              <h4>
+
+
+                Creative, Design, and Production Partner for 2023 CES. Scope Included creation of Branding  Production oversight and Installation of client activations for IBM, Delta, Instacart, and more</h4>
+            </div>
+            <div class="swiper-slide">
+              <img src="afterpay.svg" alt="">
+              <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, ipsum laboriosam! Aliquid nisi iure sequi sapiente facere maiores sed sint molestiae doloremque! Modi, minus ad? At nisi quisquam porro quasi?</h4>
+            </div>
+            
+            
+          </div>
+         
+        </div>
       </div>
       <div id="page5">
 
-      </div>   
+      </div> 
+      <div id="full-scr">
+        <div id="full-div1">
+          
+        </div>
+      </div>  
       
     </div>
+    
     <div id="footer">
+      <div id="footer-circle"></div>
+      <div id="footer-circle2"></div>
       <div class="footer-div">
         <div class="left">
           <h4>Work</h4>
@@ -160,9 +235,11 @@
           <h3>Instagram</h3>
           <h3>LinkedIn</h3>
       </div>
+      
     </div>
-
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
     <script src="main.js"></script>
+
   </body>
 </html>
